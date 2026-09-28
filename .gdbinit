@@ -1,0 +1,8 @@
+# ~/.gdbinit — read by gdb every time it starts.
+set history save on
+set history size 10000
+set history filename ~/.gdb_history
+set print pretty on
+set confirm off
+set pagination off
+set listsize 20
