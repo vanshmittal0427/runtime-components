@@ -1,0 +1,16 @@
+# ~/.gitconfig: read by git every time it runs.
+[init]
+    defaultBranch = main
+[core]
+    editor = vim
+[pull]
+    rebase = true
+[color]
+    ui = auto
+[alias]
+    st = status
+    br = branch
+    sw = switch
+    last = log -1 HEAD --stat
+    lg = log --oneline --graph --decorate --all
+    unstage = restore --staged --
